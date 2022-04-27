@@ -77,7 +77,12 @@ h3 {font-size: var(--fs-h3) }
     font-size: 16px;
     margin: 4px 50px;
     cursor: pointer;
-}  
+}
+.button:hover,
+.button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
 
 .text-center {
     padding-top: 50px;
@@ -274,6 +279,11 @@ hr{
     box-sizing: border-box;
     text-decoration: none;
 }
+.contact #github:hover,
+.contact #github:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
 .contact #linkedin {
     filter: brightness(7);
     background-color: transparent;
@@ -283,6 +293,13 @@ hr{
     box-sizing: border-box;
     text-decoration: none;
 }
+
+.contact #linkedin:hover,
+.contact #linkedin:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
 .contact #LinkedIn {
     text-decoration: none;
 }
