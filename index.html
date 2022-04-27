@@ -10,17 +10,26 @@
             <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
             <link rel="stylesheet" href="css/style.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 
     <body>
         <header>
-                <ul class="text-center">
-                    <a href="#aboutme" class="button">About Me</a></li>
-                    <a href="#experience" class="button">Experience</a></li>
-                    <a href="#education" class="button">Education</a></li>
-                    <a href="#portfolio" class="button">Portfolio</a></li>
-                    <a href="#contact" class="button">Contact</a></li>
         </header>
+            <div class="navbar">
+			<div id="wrapper">
+                <ul class="text-center">
+				<li>
+					<button class="button" id="aboutBtn"><span>About Me</span></button>
+					<button class="button" id="experienceBtn"><span>Experience</span></button>
+					<button class="button" id="educationBtn"><span>Education</span></button>
+					<button class="button" id="portfolioBtn"><span>Portfolio</span></button>
+					<button class="button" id="contactBtn"><span>Contact</span></button>
+				</li>
+            </ul>
+			</div>
+		</div>
 
         </section>
         <div class="context">
@@ -145,4 +154,5 @@
 <br>
 <br>
     </body>
+    <script src="js/app.js"></script>
 </html>
