@@ -108,6 +108,9 @@ hr{
     background-color: rgba(49, 49, 49, 0.5);
     border: none;
 }
+#resumeBtn {
+    margin-top: 550px;
+}
 
     /* INTRO */
 .section__title--intro {
