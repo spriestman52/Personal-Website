@@ -112,6 +112,15 @@ hr{
     margin-top: 550px;
 }
 
+@media (min-width: 600px) {
+    .intro {
+        display: grid;
+        width: auto;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+    }
+}
+
     /* INTRO */
 .section__title--intro {
     color: var(--clr-light);
@@ -121,6 +130,9 @@ hr{
 }
 .section__subtitle--intro2 {
     color: var(--clr-accent);
+}
+.intro {
+    position: relative;
 }
 
     /* ABOUT ME */
@@ -274,37 +286,6 @@ hr{
     position: relative;
     margin-left: 50em;
     margin-top: 15em;
-}
-    /* Casino Title */
-.section__subtitle--port3 {
-    letter-spacing: 1px;
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-    position: absolute;
-    margin-left: -26.75em;
-    margin-top: -2.25em;
-}
-    /* Casino Image */
-.portfolio #guillermosCasino {
-    float: left;
-    margin-top: 2em;
-    width: 358.4px;
-    height: auto;
-    border: 2px solid white;
-    position: relative;
-    margin-left: -40em;
-    margin-top: -10em;
-}
-    /* Casino Text */
-.guillermosCasino {
-    letter-spacing: 1px;
-    font-size: 18px;
-    color: white;
-    text-align: left;
-    position: relative;
-    margin-left: 50em;
-    margin-top: 7.5em;
 }
 
     /* CONTACT ME */
