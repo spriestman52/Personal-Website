@@ -73,17 +73,20 @@ header {
 }
 
     /* BUTTONS */
+    @media (min-width: 400px) {
 .button {
     margin-top: 10px;
     border: 2px solid white;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 50px;
     cursor: pointer;
+    min-width: 130px;
+    min-height: auto;
 }
 
 button {
@@ -96,7 +99,7 @@ button {
     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
     transform: translateY(-0.25em);
 }
-
+    }
 .text-center {
     padding-top: 50px;
     text-align: center;
@@ -202,13 +205,24 @@ hr{
 }
 
     /* PORTFOLIO */
+.portfolio{
+    background-color: rgba(49, 49, 49, 0.5);
+    max-width: 60em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    border: solid white;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+}
+
 .section__title--portfolio {
     text-align: center;
     color: var(--clr-light);
-}
-.portfolio{
-    max-width: 100%;
-    width: 100%;
 }
 
         /* CASINO BOT */
@@ -218,21 +232,22 @@ hr{
     font-size: 25px;
     font-weight: bold;
     color: white;
-    position: absolute;
-    margin-left: -27.25em;
     margin-top: -3em;
+    text-align: center;
 }
     /* Casino Bot Image */
 .portfolio #gmoBot {
-    float: left;
+    float: center;
     width: 358.4px;
     height: auto;
     border: 2px solid white;
     position: relative;
-    margin-left: -40em;
-    margin-top: -19em;
     min-width: 250px;
     min-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
 }
     /* Casino Bot Text */
 .discordBot {
@@ -241,8 +256,8 @@ hr{
     color: white;
     text-align: left;
     position: relative;
-    margin-left: 50em;
     margin-top: 7.5em;
+    margin-right: auto;
 }
 
         /* WEBSITE */
@@ -252,22 +267,22 @@ hr{
     font-size: 25px;
     font-weight: bold;
     color: white;
-    position: absolute;
-    margin-left: -26.75em;
-    margin-top: -2.25em;
+    margin-top: -3em;
+    text-align: center;
 }
     /* Website Image */
 .portfolio #siteImg {
-    float: left;
-    margin-top: 2em;
+    float: center;
     width: 358.4px;
     height: auto;
     border: 2px solid white;
     position: relative;
-    margin-left: -40em;
-    margin-top: -10em;
     min-width: 250px;
     min-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
 }
     /* Website Text */
 .personalWebsite {
@@ -276,8 +291,8 @@ hr{
     color: white;
     text-align: left;
     position: relative;
-    margin-left: 50em;
-    margin-top: 15em;
+    margin-top: 7.5em;
+    margin-right: auto;
 }
 
         /* CASINO SITE */
@@ -287,22 +302,22 @@ hr{
         font-size: 25px;
         font-weight: bold;
         color: white;
-        position: absolute;
-        margin-left: -26.75em;
-        margin-top: -2.25em;
+        margin-top: -3em;
+        text-align: center;
     }
         /* Casino Image */
     .portfolio #guillermosCasino {
-        float: left;
-        margin-top: 2em;
+        float: center;
         width: 358.4px;
         height: auto;
         border: 2px solid white;
         position: relative;
-        margin-left: -40em;
-        margin-top: -10em;
         min-width: 250px;
         min-height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
     }
         /* Casino Text */
     .guillermosCasino {
@@ -311,9 +326,10 @@ hr{
         color: white;
         text-align: left;
         position: relative;
-        margin-left: 50em;
-        margin-top: 15em;
+        margin-top: 7.5em;
+        margin-right: auto;
     }
+
     /* CONTACT ME */
 .section__title--contact {
     text-align: center;
