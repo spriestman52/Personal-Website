@@ -73,7 +73,6 @@ header {
 }
 
     /* BUTTONS */
-
 .button {
     margin-top: 10px;
     border: 2px solid white;
@@ -103,6 +102,9 @@ button {
     padding-top: 50px;
     text-align: center;
     background-color: transparent;
+}
+#resumeBtn{
+    margin-top: -1em;
 }
 
 hr{
@@ -409,10 +411,10 @@ body{
 .context h1{
     text-align: center;
     color: #fff;
-    font-size: 72px;
+    font-size: 3.91vw;
 }
 .context p{
-    font-size: 36px;
+    font-size: 1.95vw;
 }
 
 .area{
